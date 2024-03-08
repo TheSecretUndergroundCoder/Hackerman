@@ -22,7 +22,7 @@ let z = main().then(
      
         return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-        first.innerHTML="username found pakhtun.bilal..."
+        first.innerHTML="device found Toms Iphone."
         resolve(2)
         },3000)
         
@@ -39,7 +39,7 @@ let w= z.then(
      
         return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-        first.innerHTML="hacking pakhtun.bilal username..."
+        first.innerHTML="hacking Toms Iphone 2% Complete"
         resolve(3)
         },3000)
         
@@ -57,7 +57,7 @@ let final=w.then(
      
         return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-        first.innerHTML="connecting to facebook..."
+        first.innerHTML="connecting to device..."
         resolve(4)
         },3000)
         
@@ -74,7 +74,7 @@ final.then(
      
         return new Promise((resolve,reject)=>{
         setTimeout(()=>{
-        first.innerHTML="Mission Accomplished!!!"
+        first.innerHTML="Device data leaked. Adding to database."
         resolve(5)
         },3000)
         
